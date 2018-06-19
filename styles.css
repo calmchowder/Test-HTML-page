@@ -1,0 +1,38 @@
+body {
+    background-color: powderblue;
+}
+h1 {
+    color: Blue;
+	border:2px solid Tomato;
+}
+p {
+    color: red;
+}
+p.Test1 {
+	color: magenta;
+}
+p.CityCaption {
+	color: black;
+	font-size:15px;
+	font-family: Helvetica;
+}
+a {
+	font-size: 18px;
+}
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 15px;
+}
+th {
+	text-align:left
+}
+#standardtable th{
+	background-color:black;
+	color:white;
+}
+h3.Test1 {
+	background-color: tomato;
+	color: white;
+	padding: 10px;
+}
