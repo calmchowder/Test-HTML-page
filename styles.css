@@ -1,5 +1,5 @@
 body {
-    background-color: powderblue;
+    background-color: rgb(220,220,220);
 }
 h1 {
     color: Blue;
@@ -35,4 +35,9 @@ h3.Test1 {
 	background-color: tomato;
 	color: white;
 	padding: 10px;
+}
+div.ColorBlock {
+	float:left; 
+	padding:2px; 
+	text-align:center;
 }

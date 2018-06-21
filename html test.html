@@ -3,8 +3,11 @@
 <head>
 	<title>HTML Test Page</title>
 	<meta charset="UTF-8">
+	<meta name="author" content="kwoo">
+	<meta name="viewport" content="width=device-width, initial-scale'1.0">
     <link rel="shortcut icon" href="images/test bird.jpeg" type="image/x-icon">
 	<link rel="stylesheet" href="styles.css">
+	
 </head>
 <body>
 
@@ -63,38 +66,7 @@ and also, easy line
 <p><img src="images/test bird.jpeg" alt="Test Bird" style="float:left;width:42px;height:42px;">
 The image will float to the left of this text.</p>
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 <table style="width:100%" id="standardtable">
 	<caption style="font-size:150%; font-family:verdana">Random test table</caption>
@@ -110,13 +82,40 @@ The image will float to the left of this text.</p>
 	</tr>
 </table>
 
+
+
 <br>
 
-<div style="background-color:gray; color:white; padding:8px;">
+<div style="background-color:gray; color:white; padding:8px; width:600px; display:inline-block;">
 	<h3>This is a test div block</h3>
-	<p style="color:white">Here is some test information inside the div block</p>
+	<div style="width:250px; float:left">
+		<p style="color:white">Here is some test information inside the div block</p>
+	</div>
+	
+	<div style="width:250px; float:right">
+		<p style="color:white">Here is some test information inside the second div block</p>
+	</div>
 </div>
 
+<br>
+<br>
+<br>
+
+<div style="background-color:gray; color:white; padding:8px; width:500px; ">
+	<h3>This is another test div block, but these are separated</h3>
+
+</div>
+
+	<div class="ColorBlock" style="width:254px; background-color:blue;">
+		<p style="color:white">Here is some test information inside the div block</p>
+	</div>
+	<div class="ColorBlock" style="width:254px; background-color:orange;">
+		<p style="color:white">Here is some test information inside the second div block</p>
+	</div>
+
+<br>
+<br>
+<br>
 <br>
 
 <h2>This <span style="color:orange"> Heading</span> was made with the <span style="color:green">span</span> element</h2>
@@ -126,6 +125,21 @@ The image will float to the left of this text.</p>
 
 <h3 class="Test1">San Francisco</h3>
 <p class="CityCaption">This is also a city</p>
+
+<br>
+
+<h1> Testing out I framing below</h1>
+
+<iframe name="iframe_a" style="height:300px; width:100%; border:1px solid black;"></iframe>
+
+<p style="text-align:center"><a href="http://www.bbc.com/" target="iframe_a">Click here to view the BBC website in the frame above</a></p>
+
+<br>
+
+<h1> Testing out Date/Time Javascript below</h1>
+	<button type="button" onclick="document.getElementById('time').innerHTML = Date()"> Click here to display Date and Time</button>
+	<p id="time"> No time displayed yet</p>
+<br>
 
 <a href="#Head">Click here to jump back to top</a>
 <br>
