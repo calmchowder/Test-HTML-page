@@ -44,11 +44,10 @@ div.ColorBlock {
 .buttonResume {
 	background-color: #4CAF50;
     border-color: #4c9050;
+	font-family: Helvetica;
     color: white;
     padding: 40px 50px;
-    text-align: center;
     font-size: 32px;
-	align-items: center;
     cursor: pointer;
 }
 .buttonResume:hover {
