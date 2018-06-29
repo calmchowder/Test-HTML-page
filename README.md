@@ -5,5 +5,5 @@ Playing around with html and css
 Following w3 tutorial and messing around with random things
 
 ## Link to Site
-[calmchowder.github.io]
+[calmchowder.github.io](calmchowder.github.io)
 
