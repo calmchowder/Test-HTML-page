@@ -41,3 +41,16 @@ div.ColorBlock {
 	padding:2px; 
 	text-align:center;
 }
+.buttonResume {
+	background-color: #4CAF50;
+    border-color: #4c9050;
+    color: white;
+    padding: 40px 50px;
+    text-align: center;
+    font-size: 32px;
+	align-items: center;
+    cursor: pointer;
+}
+.buttonResume:hover {
+	background-color: #4c9050;
+}
