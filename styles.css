@@ -38,7 +38,8 @@ h3.Test1 {
 }
 div.ColorBlock {
 	float:left; 
-	padding:2px; 
+	padding: 2px; 
+	width: 254px;
 	text-align:center;
 }
 .buttonResume {
@@ -52,4 +53,9 @@ div.ColorBlock {
 }
 .buttonResume:hover {
 	background-color: #4c9050;
+}
+iframe.resumeFrame {
+	border:1px solid black;
+	width: 1200px;
+	height: 800px;
 }
