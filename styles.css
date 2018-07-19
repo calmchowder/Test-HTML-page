@@ -1,59 +1,61 @@
 body {
-    background-color: rgb(220,220,220);
+    background-color: rgb(240,240,240);
 }
-h1 {
+
+div {
+    font-family: 'Ubuntu', sans-serif;
+	color:Black;
+}
+
+.header {
+	text-align: center;
     color: Blue;
-	border:2px solid Tomato;
+	font-size: 300%;
+	padding: 30px;
 }
-p {
-    color: red;
+
+a.links {
+    background-color: blue;
+    box-shadow: 0 5px 0 darkblue;
+    color: white;
+    padding: 15px 20px;
+    position: relative;
+    margin-top:25%;
+    text-decoration: none;
 }
-p.Test1 {
-	color: magenta;
+
+a:hover {
+    background-color: darkblue;
 }
-p.CityCaption {
-	color: black;
-	font-size:15px;
-	font-family: Helvetica;
+
+a:active {
+    box-shadow: none;
+    top: 5px;
 }
-a {
-	font-size: 18px;
+
+.resume {
+	text-align: center;
+	padding: 100px;  /* space between Header and Button */
 }
-table, th, td {
-	border: 1px solid black;
-	border-collapse: collapse;
-	padding: 15px;
-}
-th {
-	text-align:left
-}
-#standardtable th{
-	background-color:black;
-	color:white;
-}
-h3.Test1 {
-	background-color: tomato;
-	color: white;
-	padding: 10px;
-}
-div.ColorBlock {
-	float:left; 
-	padding: 2px; 
-	width: 254px;
-	text-align:center;
-}
+
 .buttonResume {
 	background-color: #4CAF50;
     border-color: #4c9050;
-	font-family: Helvetica;
     color: white;
-    padding: 40px 50px;
+    padding: 35px 45px;
     font-size: 32px;
     cursor: pointer;
 }
+
 .buttonResume:hover {
 	background-color: #4c9050;
 }
+
+/* this doesn't work yet */
+.buttonResume:active {
+    top: 5px;
+}
+
 iframe.resumeFrame {
 	border:1px solid black;
 	width: 1200px;
