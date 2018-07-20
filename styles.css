@@ -4,7 +4,6 @@ body {
 
 div {
     font-family: 'Ubuntu', sans-serif;
-	color:Black;
 }
 
 .header {
@@ -15,22 +14,37 @@ div {
 }
 
 a.links {
-    background-color: blue;
-    box-shadow: 0 5px 0 darkblue;
-    color: white;
-    padding: 15px 20px;
-    position: relative;
-    margin-top:25%;
-    text-decoration: none;
+  position: relative;
+  display: inline-block;
+  padding: 15px 70px;
+  border: 5px solid #4c9050;
+  color: #4CAF50;
+  font-size: 30px;
+  font-family: arial;
+  background-image: linear-gradient(#4CAF50, #4CAF50);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  text-decoration: none;
+  transition: background-size .5s, color .5s;
+}
+
+a.to_left {
+    background-position: 100% 50%;
+}
+
+a.to_right {
+    background-position: 0% 50%;
 }
 
 a:hover {
-    background-color: darkblue;
+  background-size: 100% 100%;
+  color: #fff;
 }
 
 a:active {
     box-shadow: none;
-    top: 5px;
+    top: 2px;
 }
 
 .resume {
