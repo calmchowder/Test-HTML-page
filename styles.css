@@ -44,8 +44,8 @@ a.to_right {
 }
 
 a:hover {
-  background-size: 100% 100%;
-  color: #fff;
+    background-size: 100% 100%;
+    color: #fff;
 }
 
 a:active {
