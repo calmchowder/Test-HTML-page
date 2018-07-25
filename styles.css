@@ -8,9 +8,15 @@ div {
 
 .header {
 	text-align: center;
-    color: Blue;
+    color: 	#000080;
 	font-size: 300%;
 	padding: 30px;
+}
+
+.caption {
+	text-align: center;
+	color: #0000FF;
+	font-size: 140%;
 }
 
 a.links {
@@ -49,10 +55,11 @@ a:active {
 
 .resume {
 	text-align: center;
-	padding: 100px;  /* space between Header and Button */
+	padding: 80px;  /* space between Header and Button */
 }
 
 .buttonResume {
+	position: relative;
 	background-color: #4CAF50;
     border-color: #4c9050;
     color: white;
@@ -65,7 +72,6 @@ a:active {
 	background-color: #4c9050;
 }
 
-/* this doesn't work yet */
 .buttonResume:active {
     top: 5px;
 }
